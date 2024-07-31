@@ -1,7 +1,7 @@
 {
 	"recommendations": [
-		"github.copilot",
 		"dbaeumer.vscode-eslint",
+		"github.copilot",
 		"github.vscode-pull-request-github",
 	]
 }
