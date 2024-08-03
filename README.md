@@ -16,6 +16,6 @@
 ### NPM scripts
 
 - `test`: Run all tests and generate coverage report
-- `lint`: Lint files (JavaScript, Markdown)
+- `lint`: Lint JavaScript files
 - `package`: Package the project
 - `all`: Run all tests, generate coverage report, lint files, and package the project.

@@ -8,13 +8,6 @@ globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 
-ignorePatterns:
-  - '!.*'
-  - '**/node_modules/.*'
-  - '**/dist/.*'
-  - '**/coverage/.*'
-  - '*.json'
-
 parserOptions:
   ecmaVersion: 2023
   sourceType: module

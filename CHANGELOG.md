@@ -6,6 +6,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [v1.0.1] - 2024-08-03
+
+### Added
+
+- Jest can run `*.spec.js` file.
+
+### Changed
+
+- Visual Studio Code tasks to run specific Jest tests (`Run Current Spec File`, `Run Related Spec File`) do not generate coverage reports.
+
+### Removed
+
+- Remove linter rules for Markedown files (too many false positives).
+- Remove use of `super-linter` (too many false positives).
+
+### Fixed
+
+- ESLint command use the default configuration file set in `package.json`.
+
 ## [v1.0.0] - 2024-07-31
 
 ### Added
