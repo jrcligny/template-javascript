@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [v1.0.2] - 2024-08-10
+
+### Changed
+
+- Update ESLint version to `9.9.0` and use flat configuration file.
+
 ## [v1.0.1] - 2024-08-03
 
 ### Added
