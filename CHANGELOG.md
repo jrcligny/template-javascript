@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Use `esbuild` for bundling.
+
 ## [v1.0.2] - 2024-08-10
 
 ### Changed

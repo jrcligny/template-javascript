@@ -27,15 +27,14 @@
 		"lint": "npm run lint:js",
 		"lint:js": "npx eslint .",
 		"test": "npx jest --passWithNoTests",
-		"package": "",
+		"package": "node esbuild.config.mjs",
 		"all": "npm run lint && npm run test && npm run package"
 	},
 	"license": "MIT",
-	"dependencies": {
-	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.1.0",
 		"@eslint/js": "^9.9.0",
+		"esbuild": "^0.23.0",
 		"eslint": "^9.9.0",
 		"eslint-plugin-jest": "^28.7.0",
 		"jest": "^29.7.0"
