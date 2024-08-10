@@ -13,7 +13,7 @@
 		{
 			"label": "Run Current Spec File",
 			"type": "shell",
-			"command": "npx jest --findRelatedTests ${fileBasename}",
+			"command": "npx jest --findRelatedTests ${fileBasename} --coverage=false",
 			"group": {
 				"kind": "test",
 				"isDefault": false
@@ -26,7 +26,7 @@
 		{
 			"label": "Run Related Spec File",
 			"type": "shell",
-			"command": "npx jest -t ${fileBasenameNoExtension}",
+			"command": "npx jest -t ${fileBasenameNoExtension} --coverage=false",
 			"group": {
 				"kind": "test",
 				"isDefault": false

@@ -1,4 +1,0 @@
-rules:
-  textlint-filter-rule-allowlist: true
-  textlint-filter-rule-comments: true
-  textlint-rule-terminology: true
